@@ -9,6 +9,14 @@
     background-color: #7A7A7A1A;
 }
 
+nav ul{
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+    font-size: x-large;
+    margin-left: 25%;
+}
+
 .hero{
     background-color: blue;
     /* background-image: linear-gradient(to right top, #4831b8, #4041c4, #364fd0, #2a5ddb, #196ae5); */
@@ -25,6 +33,7 @@
     font-weight: bold;
     text-align: center;
     padding-top: 2rem;
+    align-items: center;
 }
 
 .hero img{
@@ -32,17 +41,51 @@
     width: auto;
 }
 
+main h4{
+    font-weight:  bold;
+}
+
+.objetivo{
+    background-image: linear-gradient(to right top, #4831b8, #4a56ca, #5676d8, #6e94e1, #8eb1e7);
+    height: 10rem;
+    text-align: center;
+    padding: 3rem;
+    display: flex;
+}
+
+.objetivo h2{
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-inline: 10rem;
+}
 
 .footer-container img{
     height: 3rem;
     width: auto;
-}
+    font-family: 'Raleway', sans-serif;
+    align-self: center;
+    align-content: center;}
 
 .calendario{
-    height: 65rem;
+    height: 50rem;
     width: auto;
     align-self: center;
     align-content: center;
+}
+
+.calendly{
     margin-bottom: 0px;
 }
 
+.clientes{
+    margin: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+   .hero-img{
+display: none;
+   }
+    
+}
