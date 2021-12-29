@@ -5,6 +5,11 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+
 .footer-container{  
     background-color: #7A7A7A1A;
 }
@@ -29,7 +34,7 @@ nav ul{
     /* background-image: url("https://images.pexels.com/photos/205316/pexels-photo-205316.png");
     background-size: cover;
     background-position: center; */
-    height: 25rem;
+    height: 22rem;
     width: auto;
 }
 .hero-text {
@@ -43,7 +48,7 @@ nav ul{
 }
 
 .hero img{
-    height: 15rem;
+    height: 20rem;
     width: auto;
 }
 
@@ -68,7 +73,7 @@ main h4{
 .objetivo{
     /* background-image: linear-gradient(to right top, #4831b8, #4a56ca, #5676d8, #6e94e1, #8eb1e7); */
     background-image: linear-gradient(to right top, #223859, #1b3663, #16336b, #173073, #1f2b7a);
-    height: 7rem;
+    height: 15rem;
     text-align: center;
     padding: 1rem;
     display: flex;
@@ -81,6 +86,10 @@ main h4{
     color: white;
     text-align: center;
     margin-inline: 10rem;
+}
+
+.objetivo h2{
+    color: white;
 }
 
 .footer-container img{
