@@ -10,11 +10,16 @@
 }
 
 nav ul{
-    font-weight: 900;
-    text-align: center;
-    align-items: center;
-    font-size: x-large;
-    margin-left: 25%;
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+    font-size: 15px;
+    font-weight: 550;
+    /* margin-left: 15%; */
+}
+
+.logo {
+    height: 3rem;
+    width: auto;
 }
 
 .hero{
@@ -24,16 +29,17 @@ nav ul{
     /* background-image: url("https://images.pexels.com/photos/205316/pexels-photo-205316.png");
     background-size: cover;
     background-position: center; */
-    height: 20rem;
+    height: 25rem;
     width: auto;
 }
 .hero-text {
-    color: white;
+    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
-    font-weight: bold;
     text-align: center;
     padding-top: 2rem;
     align-items: center;
+    color: #FFFFFF;
+    line-height: 1.1em;
 }
 
 .hero img{
@@ -45,17 +51,33 @@ main h4{
     font-weight:  bold;
 }
 
+.servicios{
+    padding-top: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.servicios section h5{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.servicios section p{
+    font-size: 0.9rem;
+}
+
 .objetivo{
-    background-image: linear-gradient(to right top, #4831b8, #4a56ca, #5676d8, #6e94e1, #8eb1e7);
-    height: 10rem;
+    /* background-image: linear-gradient(to right top, #4831b8, #4a56ca, #5676d8, #6e94e1, #8eb1e7); */
+    background-image: linear-gradient(to right top, #223859, #1b3663, #16336b, #173073, #1f2b7a);
+    height: 7rem;
     text-align: center;
-    padding: 3rem;
+    padding: 1rem;
     display: flex;
 }
 
-.objetivo h2{
-    font-family: "Poppins", Sans-serif;
-    font-size: 20px;
+.objetivo p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 550;
     color: white;
     text-align: center;
     margin-inline: 10rem;
