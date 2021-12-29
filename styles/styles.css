@@ -118,5 +118,36 @@ main h4{
    .hero-img{
 display: none;
    }
-    
+   .calendario{
+    height: 65rem;
+    width: auto;
+    align-self: center;
+    align-content: center;
 }
+    .hero--text{
+        margin-left: 11rem;
+        margin-top: 5rem;
+    }
+    .objetivo{
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .hero-img{
+ display: none;
+    }
+    .calendario{
+     height: 62rem;
+     width: auto;
+     align-self: center;
+     align-content: center;
+ }
+     .hero--text{
+         margin-left: 2rem;
+         margin-top: 4rem;
+     }
+     .objetivo{
+         display: none !important;
+     } 
+ }
