@@ -169,8 +169,10 @@ display: none;
          margin-left: 2rem;
          margin-top: 4rem;
      }
-     .objetivo{
-       display: none !important;
+     .objetivo p{
+       /* display: none !important; */
+       margin-inline: 0rem;
+
      } 
      .servicios{
         padding-left: 0rem;
@@ -195,7 +197,10 @@ display: none;
          margin-top: 4rem;
      }
      .objetivo{
-        display: none !important;;   
+        /* display: none !important;;    */
+        padding-left: 0rem;
+        padding-right: 0rem;
+
       } 
      .servicios{
             padding-left: 0rem;
