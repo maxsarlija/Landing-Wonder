@@ -60,6 +60,7 @@ main h4{
     padding-top: 2rem;
     padding-left: 10rem;
     padding-right: 10rem;
+    padding-bottom: 2rem;
 }
 .servicios section h5{
     font-size: 1rem;
@@ -85,7 +86,8 @@ main h4{
     font-weight: 550;
     color: white;
     text-align: center;
-    margin-inline: 10rem;
+    margin-inline: 22rem;
+    margin: 1rem;
 }
 
 .objetivo h2{
